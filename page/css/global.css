@@ -24,6 +24,7 @@ h2,
 h3 {
   font-family: "Fira Sans", "Arial", sans-serif;
   font-weight: bold;
+  margin: 0%;
 }
 h1 {
   font-family: "Fira Sans", "Arial", sans-serif;
@@ -32,12 +33,19 @@ h1 {
   font-size: 72px;
   line-height: 80px;
 }
+span {
+  font-family: "Fira Sans", "Arial", sans-serif;
+}
 .titulo-secao {
   font-family: "Fira Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 144px;
+  margin: 0px;
   line-height: 144px;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
 }
 h3 {
   font-family: "Fira Sans", "Arial", sans-serif;
@@ -58,9 +66,13 @@ h3 {
   font-size: 24px;
   line-height: 32px;
 }
-span {
+.span-dot {
   font-family: "Fira Sans", "Arial", sans-serif;
   font-weight: bold;
+  font-size: 34px;
+  background: -webkit-linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Cores */
