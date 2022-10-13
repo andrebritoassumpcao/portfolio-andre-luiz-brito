@@ -40,7 +40,7 @@ span {
   font-family: "Fira Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 144px;
+  font-size: 140px;
   margin: 0px;
   line-height: 144px;
   text-transform: uppercase;
@@ -73,6 +73,14 @@ h3 {
   background: -webkit-linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 800px) {
+  .titulo-secao {
+    font-size: 3rem;
+    line-height: 44px;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }
 
 /* Cores */
@@ -154,6 +162,7 @@ h3 {
 }
 .c13-bg {
   background-color: #141414;
+  color: #fff;
 }
 .gradient {
   background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
