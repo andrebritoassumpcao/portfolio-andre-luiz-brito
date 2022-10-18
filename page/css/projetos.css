@@ -20,6 +20,7 @@
 
 .projetos-lista {
   display: flex;
+  align-items: flex-start;
   gap: 20px;
   padding: 60px 60px 120px 60px;
 }

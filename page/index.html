@@ -194,8 +194,8 @@
       <h2 class="titulo-secao">Projetos</h2>
       <p class="texto-g projetos-texto c6"><strong class="c1">Portifólio</strong> de projetos <strong class="c1">Front-end</strong>, alguns desses projetos foram feitos com o intuito de praticar minhas habilidades, outra parte dele foram de serviços que prestei como <strong class="c1">Freelancer</strong><span class="span-dot">.</span></p>
     </div>
-    <ul class="projetos-lista">
-      <li class="projeto">
+    <div class="projetos-lista">
+      <div class="projeto">
         <span class="projeto-tipo">Front-end</span>
         <h3 class="projeto-titulo">Projeto de E-commerce</h3>
         <img src="../assets/img/ecommerce.png" alt="">
@@ -206,16 +206,16 @@
           <img src="../assets/icones/icone js.svg" alt="">
           <img src="../assets/icones/icone react.svg" alt="">
         </div>
-        <div class="projetos-descricao">
+        <div class="projetos-descricao" id="projetos-descricao-1">
           <span>Descrição:</span>
           <p class="texto-p c6">Projeto de e-commerce de games feito para um processo seletivo, o e-commerce tem as funcionalidades de categorizar os jogos e filtra-los por suas respectivas categorias, e usando React.js foram feitos hooks para podermos acessar cada jogo individualmente e coloca-lo no carrinho, para no fim finalizar a compra.</p>
           <a target="_blank" class="btn"> <u>Clique aqui</u></a>
         </div>
-        <a class="projetos-button" id="btn-seta">
-          <img src="../assets/icones/seta-redonda-baixo.svg" id="img-btn" alt="">
+        <a class="projetos-button" id="projetos-button-1" onclick="toggleCardExpansion(1)">
+          <img src="../assets/icones/seta-redonda-baixo.svg" id="button-img-1" alt="">
         </a>
-      </li>
-      <li class="projeto">
+      </div>
+      <div class="projeto">
         <span class="projeto-tipo">Front-end</span>
         <h3 class="projeto-titulo">Projeto de E-commerce</h3>
         <img src="../assets/img/ecommerce.png" alt="">
@@ -226,22 +226,40 @@
           <img src="../assets/icones/icone js.svg" alt="">
           <img src="../assets/icones/icone react.svg" alt="">
         </div>
-        <div class="projetos-descricao">
+        <div class="projetos-descricao" id="projetos-descricao-2">
           <span>Descrição:</span>
           <p class="texto-p c6">Projeto de e-commerce de games feito para um processo seletivo, o e-commerce tem as funcionalidades de categorizar os jogos e filtra-los por suas respectivas categorias, e usando React.js foram feitos hooks para podermos acessar cada jogo individualmente e coloca-lo no carrinho, para no fim finalizar a compra.</p>
           <a target="_blank" class="btn"> <u>Clique aqui</u></a>
         </div>
-        <a class="projetos-button" id="btn-seta">
-          <img src="../assets/icones/seta-redonda-baixo.svg" id="img-btn" alt="">
+        <a class="projetos-button" id="projetos-button-2" onclick="toggleCardExpansion(2)">
+          <img src="../assets/icones/seta-redonda-baixo.svg" id="button-img-2" alt="">
         </a>
-      </li>
-    </ul>
+      </div>
+    </div>
+    </div>
+  </section>
 
-
+  <footer class="footer" id="contato">
+    <div class="footer-container">
+      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 😉</p>
+      <ul class="footer-contato">
+        <li><img src="../assets/icones/email.svg" alt="Email">
+          andrebritoassumpcao@outlook.com</li>
+        <li><a href="https://api.whatsapp.com/send?phone=+5521965965067&text=Oi, André"><img src="../assets/icones/wpp.svg" alt="WhatsApp">
+            +55 21 96596-5067</a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/andré-luiz-brito-monsores-de-assumpção-5a1b09183/" target="_blank"><img src="../assets/icones/linkedin.svg" alt="Linkedin">
+            Linkedin: André Luiz Brito</a> </li>
+        <li><a href="https://www.linkedin.com/in/andré-luiz-brito-monsores-de-assumpção-5a1b09183/" target="_blank"><img src="../assets/icones/github.svg" alt="Github">
+            Github: andrebritoassumpcao</a> </li>
+        <li><img src="../assets/icones/discord.svg" alt="Discord">
+          Discord: AndréLuizB#8902 </li>
+      </ul>
+      <p class="footer-copy">© 2022 Portifólio André Luiz Brito - Todos os direitos reservados</p>
 
     </div>
 
-  </section>
+  </footer>
 </body>
 <script src="../page/js/script.js"></script>
 
