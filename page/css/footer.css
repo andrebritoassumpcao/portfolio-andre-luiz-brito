@@ -18,16 +18,28 @@
   color: #cccccc;
 }
 
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 .footer-contato li {
   display: flex;
   gap: 20px;
   justify-content: start;
   align-items: center;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 32px;
   color: #fff;
-  margin-bottom: 30px;
+}
+.footer-contato li > img {
+  width: 25px;
+  height: 25px;
+}
+.footer-contato a > img {
+  width: 25px;
+  height: 25px;
 }
 .footer-contato a {
   display: flex;
@@ -35,10 +47,9 @@
   justify-content: start;
   align-items: center;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
   color: #fff;
-  margin-bottom: 30px;
 }
 
 .footer-copy {

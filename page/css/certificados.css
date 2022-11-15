@@ -86,7 +86,14 @@
   padding: 0%;
 }
 .btn:hover {
-  color: #f0f0f0;
+  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%),
+    0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #67dd0a;
+  transform: translateY(-0.1em);
+}
+
+.btn:active {
+  box-shadow: inset 0px 0.1em 0.6em #67dd0a;
+  transform: translateY(0em);
 }
 
 .certificados-curso div {
