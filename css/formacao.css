@@ -13,7 +13,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url(../../assets/icones/deco.svg) no-repeat center center;
+  background: url(../assets/icones/deco.svg) no-repeat center center;
   position: absolute;
   bottom: -50px;
   left: 20px;
@@ -23,7 +23,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url(../../assets/icones/deco.svg) no-repeat center center;
+  background: url(../assets/icones/deco.svg) no-repeat center center;
   position: absolute;
   top: -50px;
   left: 20px;
@@ -112,11 +112,11 @@
 }
 
 .cursos h3::before {
-  background: url(../../assets/icones/livro.svg) no-repeat center center;
+  background: url(../assets/icones/livro.svg) no-repeat center center;
 }
 
 .idiomas h3::before {
-  background: url(../../assets/icones/idioma.svg) no-repeat center center;
+  background: url(../assets/icones/idioma.svg) no-repeat center center;
 }
 
 .formacao-extra li {
