@@ -5,7 +5,7 @@ const toggleCardExpansion = function (id) {
   var img = document.getElementById(`button-img-${id}`);
 
   if (projeto.classList.contains("active")) {
-    return img.setAttribute("src", "../../assets/icones/seta-redonda-cima.svg");
+    return img.setAttribute("src", "../assets/icones/seta-redonda-cima.svg");
   }
-  return img.setAttribute("src", "../../assets/icones/seta-redonda-baixo.svg");
+  return img.setAttribute("src", "../assets/icones/seta-redonda-baixo.svg");
 };
