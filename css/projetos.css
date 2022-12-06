@@ -24,8 +24,10 @@
   gap: 20px;
   padding: 60px 60px 120px 60px;
   overflow-x: auto;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  scroll-snap-type: x mandatory;
 }
 .projetos-texto {
   margin-bottom: 60px;
