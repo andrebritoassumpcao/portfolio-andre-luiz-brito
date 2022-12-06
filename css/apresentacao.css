@@ -64,3 +64,27 @@
   right: -90px;
   position: absolute;
 }
+@media (max-width: 800px) {
+  .apresentacao-texto::before {
+    display: none;
+  }
+  .apresentacao-texto::after {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .apresentacao-texto::before {
+    display: none;
+  }
+  .apresentacao-texto::after {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .apresentacao-container {
+    grid-template-columns: 1fr;
+  }
+  .titulo-secao {
+    color: #000;
+  }
+}

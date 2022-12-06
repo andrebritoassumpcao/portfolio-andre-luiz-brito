@@ -59,6 +59,9 @@
     top: 2px;
     left: -10px;
   }
+  .introducao img {
+    min-width: 110px;
+  }
 }
 @media (max-width: 400px) {
   .introducao {
