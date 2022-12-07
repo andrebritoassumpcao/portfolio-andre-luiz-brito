@@ -1,5 +1,5 @@
 .projetos-container {
-  max-width: auto;
+  max-width: 1200px;
   padding: 120px 20px;
   margin: 0 auto;
   display: grid;
@@ -106,7 +106,7 @@
     padding: 40px 70px 10px 70px;
     border-radius: 4px;
     display: flex;
-    columns: 1fr auto;
+    columns: 2fr auto;
   }
   .projeto > img {
     height: 140px;
